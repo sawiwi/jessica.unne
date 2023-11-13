@@ -35,7 +35,7 @@ const AboutComponent = () => {
                   play={true}
                   cancelOnInteraction={false} 
                   interval={3000}
-                  className="awsBtn object-cover bg-center"
+                  className="awsBtn"
                 >
                         {ImgDataMe?.length  > 0 ?  
                             ImgDataMe.map((item) =>
@@ -43,7 +43,8 @@ const AboutComponent = () => {
                               <img
                                 src={item.img}
                                 alt="slide-1"
-                                className="rounded-full h-[200px] w-[200px] mt-10 mx-14 md:mx-2 xl:w-[280px] xl:h-[280px] xl:mt-1 xl:mx-2 xl:object-[center-bottom] "
+                                // className="rounded-full h-[260px] w-[100%] mt-10 object-[center-center] object-cover  md:mx-2 xl:w-full xl:h-full xl:mt-1 xl:mx-2 "
+                                className='rounded-full bg-center w-[200px] h-[210px]  xl:h-[310px] object-cover'
                               />
                             </div>
                         ) : null}
@@ -57,9 +58,6 @@ const AboutComponent = () => {
                   Ofrezco una gama de servicios que incluye la intermediación en la compra y venta de propiedades, arriendos de casas, departamentos y terrenos urbanizados. Mi compromiso es asegurarme de que los clientes no tengan necesidad de enfrentar a las aristas asociadas al proceso que esto implica, proporcionando soluciones efectivas y una atención de alta calidad. A lo largo de mi trayectoria, he logrado resultados exitosos que han fortalecido las relaciones fluidas y de confianza a largo plazo.
                   <br />
                   <br />
-                  {/* Unne es un acelerador inmobiliario que ofrece una amplia gama de productos y servicios innovadores, esto junto con una gestión comercial proactiva, impulsarán los resultados de nuestros clientes.
-                  <br />
-                  <br /> */}
                 </p>
 
                 <p className="text-lg xl:text-xl text-gray-700 mt-8 ml-0 xl:ml-5 md:text-center xl:text-left">
