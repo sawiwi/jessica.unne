@@ -34,8 +34,8 @@ const AboutComponent = () => {
                   // transitionDelay={1000}
                   play={true}
                   cancelOnInteraction={false} 
-                  interval={4000}
-                  className="awsBtn"
+                  interval={3000}
+                  className="awsBtn object-cover bg-center"
                 >
                         {ImgDataMe?.length  > 0 ?  
                             ImgDataMe.map((item) =>
@@ -43,7 +43,7 @@ const AboutComponent = () => {
                               <img
                                 src={item.img}
                                 alt="slide-1"
-                                className="rounded-full h-[200px] w-[200px] mt-10 mx-14 md:mx-2 xl:w-[300px] xl:h-[300px] xl:mt-1 xl:mx-2"
+                                className="rounded-full h-[200px] w-[200px] mt-10 mx-14 md:mx-2 xl:w-[280px] xl:h-[280px] xl:mt-1 xl:mx-2 xl:object-[center-bottom] "
                               />
                             </div>
                         ) : null}
