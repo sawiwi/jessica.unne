@@ -29,7 +29,7 @@ const AboutComponent = () => {
                   mobileTouch={true}
                   // organicArrows={false}
                   // infinite={true}
-                  startupScreen={3000}
+                  // startupScreen={3000}
                   // startup={true}
                   // transitionDelay={1000}
                   play={true}
