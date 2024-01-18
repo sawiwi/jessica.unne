@@ -42,7 +42,6 @@ const GalleryCarousel = ({property}) => {
             const image = images[idx];
             const validExtensions = ['.jpg', '.jpeg', '.png'];
 
-    
             if (image && validExtensions.some(ext => image.toLowerCase().endsWith(ext))) {
               return {
                 original: `${image }`,

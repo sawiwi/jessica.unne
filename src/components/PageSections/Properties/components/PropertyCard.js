@@ -38,7 +38,7 @@ const PropertyCard = ({ data, isList, property,valueUf }) => {
     />
   );
 
-  console.log(image)
+  // console.log(image)
 
 
   const validaImage = (image) => {
